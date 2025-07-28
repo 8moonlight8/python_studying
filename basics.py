@@ -82,6 +82,20 @@ print("Son carre est ",man**2)
 
 
 # Les listes 
-liste = [nigga,man,3,74,]
+liste = ["nigga","man",3,74,8]
+print(len(liste))     #c'est une fonction 
+print(liste)
+
+del liste[2]  # c'est une instruction 
+
+print(liste)
+
+
+
+
+
+# Echange de valeurs
+val1,val2 = 1
+val1,val2 = val2,val1
 
 
